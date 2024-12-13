@@ -1,0 +1,52 @@
+.basicos-padre {
+margin-block: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.basicos-hijo {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.img-esencial {
+  height: 400px;
+  width: 350px;
+}
+.text-container {
+  padding: 5px;
+  font-weight: 600;
+  font-size: larger;
+}
+.container-fav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-fav{
+    height: 250px;
+    width: 100%;
+}
+.fav-hijo{
+    margin-bottom: 50px;
+    width: 20%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+h3{display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+}

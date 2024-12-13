@@ -3,17 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+.body {
+  background-color: rgb(244, 244, 245);
+  color: rgb(43, 44, 46);
+}
 
 .promocion {
   font-size: smaller;
   text-align: center;
+  background-color: rgb(43, 44, 46);
+  color: rgb(244, 244, 245);
 }
 .navbar {
   height: 20vh;
+  background-color: rgba(244, 244, 245, 0.879);
 }
-.nav-item{
+.nav-item {
   font-size: larger;
-  padding: 15px;  
+  padding: 15px;
 }
 .logo-nav {
   height: 50px;
@@ -23,12 +30,10 @@
   left: 42%;
   top: 8%;
 }
-.navbar-nav{
-margin-left: 20%;
-padding-top: 5%;
+.navbar-nav {
+  margin-left: 20%;
+  padding-top: 5%;
 }
-
-
 .img-carrusel {
   height: 90vh;
   width: 100%;
@@ -213,6 +218,6 @@ body {
 p {
   margin-bottom: 5px;
 }
-.footerend{
+.footerend {
   font-size: medium;
 }

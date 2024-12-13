@@ -9,6 +9,11 @@
   width: 1200px;
   margin-inline: auto;
 }
+.titulo{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 .fotiwi {
   width: 600px;
   height: 75vh;
@@ -20,15 +25,20 @@
 .one {
   height: 90vh;
   width: 600px;
-  /* border: solid 1px black; */
-  font-size: small;
+  border: solid 1px black;
+
 }
 .two {
   width: 600px;
   height: 90svh;
   /* border: solid 1px black; */
-  font-size: smaller;
-  padding: 5%;
+  font-size: medium;
+  padding-inline: 5%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .container-2 {
@@ -40,5 +50,5 @@
   /* border: solid 1px black; */
   padding: 5%;
   margin-inline: 2%;
-  font-size: small;
+  font-size: smaller;
 }
