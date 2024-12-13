@@ -1,0 +1,44 @@
+.nosgrilla {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+
+  grid-template-areas:
+    "one  two"
+    "three four";
+  width: 1200px;
+  margin-inline: auto;
+}
+.fotiwi {
+  width: 600px;
+  height: 75vh;
+}
+.fotolog{
+  margin-bottom: 10px;
+}
+
+.one {
+  height: 90vh;
+  width: 600px;
+  /* border: solid 1px black; */
+  font-size: small;
+}
+.two {
+  width: 600px;
+  height: 90svh;
+  /* border: solid 1px black; */
+  font-size: smaller;
+  padding: 5%;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1%;
+}
+.caja {
+  /* border: solid 1px black; */
+  padding: 5%;
+  margin-inline: 2%;
+  font-size: small;
+}
