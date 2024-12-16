@@ -15,8 +15,8 @@
   color: rgb(244, 244, 245);
 }
 .navbar {
-  height: 20vh;
-  background-color: rgba(244, 244, 245, 0.879);
+  height: 120px;
+ 
 }
 .nav-item {
   font-size: larger;
@@ -214,9 +214,6 @@ body {
   position: absolute;
   left: 25%;
   margin-top: 2%;
-}
-p {
-  margin-bottom: 5px;
 }
 .footerend {
   font-size: medium;

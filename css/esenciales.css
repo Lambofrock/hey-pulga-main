@@ -3,7 +3,6 @@ margin-block: 20px;
   display: flex;
   justify-content: space-evenly;
 }
-
 .basicos-hijo {
   width: 350px;
   height: 450px;
