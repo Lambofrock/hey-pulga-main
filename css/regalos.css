@@ -1,48 +1,48 @@
-.img-bebes{
-    display: flex;
-    justify-content: center;
-
+.img-bebes {
+  display: flex;
+  justify-content: center;
 }
-.bb{
-    border: 1px solid black; 
-    width: 70%;
-    height: 300px;
+.bb {
+  border: 1px solid black;
+  width: 70%;
+  height: 300px;
 }
-.pop-hijo{
-    margin-bottom: 50px;
-    width: 27%;
-    height:300px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+.pop-hijo {
+  margin-bottom: 50px;
+  width: 27%;
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
-.pop-hijo1{
-    margin-bottom: 50px;
-    width: 27%;
-    height:300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+.pop-hijo1 {
+  margin-bottom: 50px;
+  width: 27%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.container-pop{
-    
-    display: flex;
-    gap: 5%;
-    justify-content: center;
-    flex-wrap: wrap;
+.container-pop {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.button{
-
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
-.gpt{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 70%;
+.container-tar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-block: 3%;
+}
+.box {
+  height: 45vh;
+  width: 30%;
 }
