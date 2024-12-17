@@ -13,15 +13,16 @@
   text-align: center;
   background-color: rgb(43, 44, 46);
   color: rgb(244, 244, 245);
+  padding: 10px;
 }
 .navbar {
   height: 120px;
   margin-inline: 2%;
 }
 .nav-item {
-  font-size: larger;
+  font-size:small;
   padding: 15px;
-}
+} 
 .logo-nav {
   height: 50px;
 }
@@ -34,7 +35,7 @@
   margin-left: 20%;
   padding-top: 5%;
 }
-.carousel{
+.carousel {
   margin-inline: 2%;
 }
 .img-carrusel {
@@ -53,15 +54,13 @@
   grid-template-areas:
     "one two three four "
     "five five six  six ";
-  margin-inline: 2%;
+margin-inline: 1vw;
   margin-top: 20px;
-  gap: 2%;
-  width: 96%;
-
+  width:96vw;
 }
 
 .grilla-hijo-one {
-  grid-area: one;
+  grid-area: one; margin-inline: 1vw;
   height: 45vh;
   display: flex;
   background-image: url(./img/ejemplo/img-ejemplo.jpg);
@@ -73,7 +72,7 @@
   flex-wrap: wrap;
 }
 .grilla-hijo-two {
-  grid-area: two;
+  grid-area: two;margin-inline: 1vw;
   height: 45vh;
   width: auto;
   display: flex;
@@ -86,7 +85,7 @@
   flex-wrap: wrap;
 }
 .grilla-hijo-three {
-  grid-area: three;
+  grid-area: three;margin-inline: 1vw;
   height: 45vh;
   width: auto;
   display: flex;
@@ -99,7 +98,7 @@
   flex-wrap: wrap;
 }
 .grilla-hijo-four {
-  grid-area: four;
+  grid-area: four;margin-inline: 1vw;
   height: 45vh;
   width: auto;
   display: flex;
@@ -117,12 +116,13 @@
   width: auto;
   display: flex;
   background-image: url(./img/ejemplo/img-ejemplo.jpg);
-  background-size: 600px 45vh;
+  background-size: 100% 45vh;
   background-repeat: no-repeat;
   justify-content: center;
   align-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 1vw;
 }
 .grilla-hijo-six {
   grid-area: six;
@@ -130,12 +130,13 @@
   width: auto;
   display: flex;
   background-image: url(./img/ejemplo/img-ejemplo.jpg);
-  background-size: 600px 45vh;
+  background-size: 100% 45vh;
   background-repeat: no-repeat;
   justify-content: center;
   align-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 1vw;
 }
 
 .text-productos {
@@ -237,36 +238,36 @@ p {
 .button-59 {
   align-items: center;
   background-color: white;
-  border: 2px solid #000;
+  border: 2px solid rgb(0, 0, 0);
   box-sizing: border-box;
   color: #000;
   cursor: pointer;
   display: inline-flex;
   fill: #000;
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 48px;
   justify-content: center;
-  letter-spacing: -.8px;
+  letter-spacing: -0.8px;
   line-height: 24px;
   min-width: 140px;
   outline: 0;
   padding: 0 17px;
   text-align: center;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
 
-.button-59:focus {
+/* .button-59:focus {
   color: #171e29;
 }
 
 .button-59:hover {
-  border-color: #06f;
+  border-color: yellow;
   color: #06f;
   fill: #06f;
 }
@@ -281,4 +282,4 @@ p {
   .button-59 {
     min-width: 170px;
   }
-}
+} */
