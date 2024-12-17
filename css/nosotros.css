@@ -9,11 +9,6 @@
   width: 1200px;
   margin-inline: auto;
 }
-.titulo{
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
 .fotiwi {
   width: 600px;
   height: 75vh;

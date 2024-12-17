@@ -41,6 +41,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   margin-block: 3%;
+  margin-inline:2%;
 }
 .box {
   height: 45vh;
